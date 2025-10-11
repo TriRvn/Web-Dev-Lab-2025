@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Curriculum Vitae of Trinh Minh Tri - IT student at International University, Vietnam National University HCMC">
+  <meta name="keywords" content="Trinh Minh Tri, IT, IU, CV, Resume, Web Developer, Student">
+  <meta name="author" content="Trinh Minh Tri">
+
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Trinh Minh Tri - Curriculum Vitae">
+  <meta property="og:description" content="IT student at International University (VNU-HCMC) passionate about programming and web development.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="face.jpg">
+  <meta property="og:url" content="https://www.linkedin.com/in/minh-tri-trinh-584402317/">
+
+  <link rel="icon" type="image/png" href="favicon.png">
+  <title>Trinh Minh Tri - CV</title>
+    <style>
+      body {
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        margin: 24px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+        background: #fff;
+      }
+    </style>
+</head>
+<body>
+
+  <header>
+    <hr>
+    <h1>Trinh Minh Tri</h1>
+    <p><strong>IT Student at International University - Vietnam National University HCMC</strong></p>
+    <img src="D:\Downloads\z6514045891787_d8d0e8a8f0e752924a7a318de86b4d44.jpg" alt="Profile Photo" width="120" height="120">
+    <address>
+      Thu Duc City, Ho Chi Minh City, Vietnam<br>
+      trinhmintri317@gmail.com<br>
+      <a href="https://www.linkedin.com/in/minh-tri-trinh-584402317/">LinkedIn Profile</a>
+    </address>
+  </header>
+
+  <main>
+    <section>
+      <h2>Skills</h2>
+      <p>Java, HTML, CSS, JavaScript, SQL, MySQL, Object-Oriented Programming, Git/GitHub, Team Collaboration</p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>International University - Vietnam National University HCMC</strong><br>
+      Bachelor of Science in Information Technology (Expected 2028)<br>
+      GPA: 3.6/4.0 (Expected)</p>
+      <ul>
+        <li>Member of Software Engineering Club</li>
+        <li>Completed projects in Java and MySQL</li>
+        <li>Developed a Warehouse Management System inspired by Odoo</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <article>
+        <h3>Warehouse Management System Project – Developer</h3>
+        <p>Aug 2025 – Present</p>
+        <ul>
+          <li>Designed database schema using MySQL</li>
+          <li>Implemented backend features in Java (Spring Boot not used)</li>
+          <li>Collaborated using GitHub workflow and Agile tasks in Trello</li>
+        </ul>
+        <p><strong>Skills:</strong> Java, MySQL, API design, Git workflow</p>
+      </article>
+
+      <article>
+        <h3>Freelance Web Developer (Self-learning Projects)</h3>
+        <p>2023 – Present</p>
+        <ul>
+          <li>Built small websites using HTML, CSS, and JS</li>
+          <li>Learned backend connection using JDBC</li>
+          <li>Practiced SEO and clean semantic HTML design</li>
+        </ul>
+        <p><strong>Skills:</strong> HTML, CSS, JS, SEO fundamentals</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Across the Internet</h2>
+      <p>
+        <a href="https://www.linkedin.com/in/minh-tri-trinh-584402317/">LinkedIn</a><br>
+        <a href="https://github.com/">GitHub (Coming Soon)</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p>© 2025 Trinh Minh Tri | IT Student, IU - VNU HCMC</p>
+  </footer>
+
+</body>
+</html>
