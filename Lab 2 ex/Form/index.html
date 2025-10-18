@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Survey Form</title>
+
+  <style>
+    body {
+      background-color: #f9f9f9;
+    }
+    .survey-box {
+      background-color: #fff;
+      border: 2px solid #cce0e0;
+      border-radius: 8px;
+      padding: 40px;
+      max-width: 700px;
+      margin: 40px auto;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h3 {
+      color: #00796b;
+      font-weight: 700;
+    }
+    h5 {
+      color: #00796b;
+      font-weight: 600;
+      margin-top: 30px;
+    }
+    label {
+      font-weight: 500;
+    }
+    .form-check-label {
+      font-weight: normal;
+    }
+    .btn-primary {
+      background-color: #00796b;
+      border-color: #00796b;
+    }
+    .btn-primary:hover {
+      background-color: #005f56;
+      border-color: #005f56;
+    }
+    .logo {
+      display: block;
+      margin: 0 auto 20px auto;
+    }
+    .subtitle {
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="survey-box">
+    <!-- Logo -->
+    <div class="text-center">
+      <img src="D:\Downloads\group_1245-01-1.png" alt="IU Logo" width="120" class="logo">
+    </div>
+
+    <!-- Survey Header -->
+    <h3 class="text-center mb-3">Survey</h3>
+    <p class="text-center subtitle">
+      If you have a moment, we'd appreciate it if you would fill out this survey.
+    </p>
+
+    <!-- Form Start -->
+    <form>
+      <h5>Your information:</h5>
+
+      <div class="form-group">
+        <label for="fname">First Name</label>
+        <input type="text" class="form-control" id="fname">
+      </div>
+
+      <div class="form-group">
+        <label for="lname">Last Name</label>
+        <input type="text" class="form-control" id="lname">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+
+      <div class="form-group">
+        <label for="dob">Date of Birth</label>
+        <input type="date" class="form-control" id="dob">
+      </div>
+
+      <h5>How did you hear about us?</h5>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="search" name="source">
+        <label class="form-check-label" for="search">Search engine</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="word" name="source">
+        <label class="form-check-label" for="word">Word of mouth</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="social" name="source">
+        <label class="form-check-label" for="social">Social Media</label>
+      </div>
+      <div class="form-check mb-3">
+        <input type="radio" class="form-check-input" id="other" name="source">
+        <label class="form-check-label" for="other">Other</label>
+      </div>
+
+      <h5>Would you like to receive announcements about new CDs and special offers?</h5>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="yes1">
+        <label class="form-check-label" for="yes1">YES, I'd like that.</label>
+      </div>
+      <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="yes2">
+        <label class="form-check-label" for="yes2">YES, please send me email announcements.</label>
+      </div>
+
+      <div class="form-group">
+        <label for="contact">Please contact me by:</label>
+        <select class="form-control" id="contact">
+          <option>Email or postal mail</option>
+          <option>Email only</option>
+          <option>Postal mail only</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-primary mt-3">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
